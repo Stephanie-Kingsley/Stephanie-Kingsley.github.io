@@ -1,0 +1,20 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Site Title</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<header><h1>Blake, or, The Huts of America</h1><h2>By M. R. Delany, Collation prepared by Stephanie Kingsley</h2></header>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="About.html">About</a>
+		<a href="CV.html">CV</a>
+		<a href="Projects.html">Projects</a>
+		<a href="Contact.html">Contact</a>
+	</nav>
+	<p>INFO ON PROJECT HERE</p>
+	<li>Chapter I: The Project</li>
+	<li><a href="BlakeCh2.html">Chapter II: Colonel Franks at Home</a></li>
+	<li>Chapter III: The Fate of Maggie</li>
+</body>
