@@ -1,13 +1,27 @@
-body {font-family: "Times New Roman", "Georgia", Arial, sans-serif, cursive;width: 68%;margin: 50px auto;font-size: 1em}
+body, header, nav, footer {background-color: #FFF8DC}
+
+body {
+font-family: "Times New Roman", "Georgia", Arial, sans-serif, cursive;
+width: 68%;
+margin: 50px auto;
+font-size: 1em;
+text-align: left;}
+
+h1 {font-family: Century, Times, Century, Garamond, Times;
+text-align: left;}
+h2 {font-family: Century, Times, Garamond;
+padding-bottom: 10px;}
 
 header, nav, footer, img {text-align: center;}
 
-nav a {text-align: block; 
+nav a {text-align: block;
+	font-family: Century, Times, Garamond; 
 	padding: 6px;}
 a:link {color: blue}
 a:visited {color: purple}
 a:hover {color: red}
 
-#content{float:right;width: 48%;background-size: 50%}
-img {float:left;max-width: 48%}
-footer {clear: both;}
+#content{float:right;width: 65%;background-size: 50%}
+img {float:left;max-width: 30%}
+footer {clear: both;
+padding-top: 10px}

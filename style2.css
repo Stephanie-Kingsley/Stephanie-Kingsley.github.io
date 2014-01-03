@@ -1,7 +1,22 @@
-body {font-family: "Times New Roman", "Georgia", Arial, sans-serif, cursive;width: 68%;margin: 50px auto;font-size: 1em}
+body, header, nav, footer {background-color: #FFF8DC}
+
+body {
+	font-family: "Times New Roman", "Georgia", Arial, sans-serif, cursive;
+	width: 68%;
+	margin: 50px auto;
+	font-size: 1em;
+	text-align: left;
+	}
 
 header, nav, footer, img {text-align: center;}
-nav a {text-align: block; 
+
+h1 {font-family: Century, Times, Century, Garamond, Times;
+text-align: left;}
+h2 {font-family: Century, Times, Garamond;
+padding-bottom: 10px;}
+
+nav a {text-align: block;
+	font-family: Century, Times, Garamond; 
 	padding: 6px;}
 a:link {color: blue}
 a:visited {color: purple}
@@ -9,7 +24,8 @@ a:hover {color: red}
 
 #content{width: 85%;}
 
-footer {clear: both;}
+footer {clear: both;
+padding-top: 10px}
 
 ul{
 	list-style: square;
@@ -20,6 +36,5 @@ ul{
 h5{
 	line-height: inherit;}
 
-p{text-align: left;}
 
 
