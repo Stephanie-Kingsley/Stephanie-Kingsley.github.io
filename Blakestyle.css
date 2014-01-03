@@ -8,10 +8,22 @@ margin: 50px auto;
 font-size: 1em;
 text-align: left;}
 
-h1 {font-family: Century, Times, Century, Garamond, Times;
-text-align: left;}
+header {
+	font-family: Century, Times, Garamond;
+	text-align: left;
+}
+h1 {
+	font-family: Century, Times, Century, Garamond, Times;
+	text-align: left;
+}
 h2 {font-family: Century, Times, Garamond;
-padding-bottom: 10px;}
+padding-bottom: 10px;
+text-align: center;}
+h4 {
+	font-family: Century, Times, Garamond;
+	text-align: left;
+}
+
 
 header, nav, footer, img {text-align: center;}
 

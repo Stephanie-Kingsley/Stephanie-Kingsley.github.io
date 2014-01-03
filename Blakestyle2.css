@@ -18,6 +18,10 @@ h1 {font-family: Century, Times, Century, Garamond, Times;
 text-align: left;}
 h2 {font-family: Century, Times, Garamond;
 padding-bottom: 10px;}
+h4 {
+	font-family: Century, Times, Garamond;
+	text-align: left;
+}
 
 nav a {text-align: block;
 	font-family: Century, Times, Garamond; 
