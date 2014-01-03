@@ -1,0 +1,31 @@
+body, header, nav, footer {background-color: #FFDEAD;color: #8B0000;}
+p {color: black;}
+
+body {
+font-family: "Times New Roman", "Georgia", Arial, sans-serif, cursive;
+width: 68%;
+margin: 50px auto;
+font-size: 1em;
+text-align: left;}
+
+h1 {font-family: Century, Times, Century, Garamond, Times;
+text-align: left;}
+h2 {font-family: Century, Times, Garamond;
+padding-bottom: 10px;}
+
+header, nav, footer, img {text-align: center;}
+
+nav a {text-align: block;
+	font-family: Century, Times, Garamond; 
+	padding: 6px;}
+a:link {color: #8B0000}
+a:visited {color: #8E388E}
+a:hover {color: #008B45}
+
+p {float:left;width: 65%;background-size: 50%}
+div {float: left;}
+img {float:right;max-width: 30%; padding-bottom: 10px;}
+footer {clear: both;
+padding-top: 10px;
+text-align: center;
+color: black;}
