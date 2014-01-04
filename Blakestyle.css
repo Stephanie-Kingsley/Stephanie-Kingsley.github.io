@@ -23,6 +23,7 @@ h4 {
 	font-family: Century, Times, Garamond;
 	text-align: left;
 }
+ul {text-align: left; float: left;}
 
 
 header, nav, footer, img {text-align: center;}
