@@ -1,4 +1,18 @@
-body, header, nav, footer {background-color: #FFF8DC;}
+html {
+	background: url(Frenchplate2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+header, body, div, nav, footer {
+	background-color: #FAEBD7;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
 
 body {
 font-family: "Times New Roman", "Georgia", Arial, sans-serif, cursive;
@@ -7,21 +21,37 @@ margin: 50px auto;
 font-size: 1em;
 text-align: left;}
 
-h1 {font-family: Century, Times, Century, Garamond, Times;
+h1 {font-family: Century, Times, Garamond;
 text-align: left;}
-h2 {font-family: Century, Times, Garamond;
-padding-bottom: 10px;}
+
+h2 {
+	font-family: Century, Times, Garamond; 
+	padding-bottom: 10px;
+	text-align: center;
+	margin-left: 12%;
+	margin-right: 12%;
+}
 
 header, nav, footer, img {text-align: center;}
 
-nav a {text-align: block;
+nav a {
+	text-align: block;
 	font-family: Century, Times, Garamond; 
 	padding: 6px;}
+
 a:link {color: blue}
 a:visited {color: purple}
 a:hover {color: red}
 
-#content{float:right;width: 65%;background-size: 50%}
-img {float:left;max-width: 30%}
-footer {clear: both;
-padding-top: 10px}
+#content{
+	float:left;
+	width: 55%;
+	background-size: 50%}
+
+img {
+	width: 40%;
+	float: right;}
+
+footer {
+	clear: both;
+	padding-top: 10px}
