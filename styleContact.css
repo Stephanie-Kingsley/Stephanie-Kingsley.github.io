@@ -3,16 +3,34 @@ html {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
-}
+	background-size: cover;}
 
 header, body, div, nav, footer {
 	background-color: #FAEBD7;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
+	padding-top: 1px;
+	padding-bottom: 1px;}
+
+nav a {
+	text-align: block;
+	font-family: Century, Times, Garamond; 
+	padding: 6px;}
+
+a:link {color: blue}
+a:visited {color: purple}
+a:hover {color: red}
+
+header, nav, footer, body {text-align: center;}
+
+footer {
+	clear: both;
+	padding-top: 10px}
+
+h1 {font-family: Century, Times, Garamond;
+text-align: left;}
+h2 {font-family: Century, Times, Garamond;
+padding-bottom: 10px;}
 
 body {
 	font-family: "Times New Roman", "Georgia", Arial, sans-serif, cursive;
@@ -21,32 +39,3 @@ body {
 	font-size: 1em;
 	}
 
-header, nav, footer, body {text-align: center;}
-
-body {width: 60%;}
-
-h1 {font-family: Century, Times, Century, Garamond, Times;
-text-align: left;}
-h2 {font-family: Century, Times, Garamond;
-padding-bottom: 10px;}
-
-nav a {text-align: block;
-	font-family: Century, Times, Garamond; 
-	padding: 6px;}
-a:link {color: blue}
-a:visited {color: purple}
-a:hover {color: red}
-
-#content{width: 85%;}
-
-footer {clear: both;
-padding-top: 10px}
-
-ul{
-	list-style: square;
-	margin-left: 1em;
-	line-height: 100%
-}
-
-h5{
-	line-height: inherit;}
