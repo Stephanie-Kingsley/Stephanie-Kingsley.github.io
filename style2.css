@@ -39,8 +39,8 @@ body {
 	font-size: 1em;
 	text-align: left;}
 
-img {width: 33%; float: left;}
-div {width: 62%; float: right; text-align: left;}
+img {width: 33%; float: left; padding-right: 10px;}
+#bio {width: 62%; float: right; text-align: left;}
 
 ul{
 	list-style: square;
@@ -48,6 +48,39 @@ ul{
 	line-height: 100%
 }
 
+table {width: 100%;}
+
+td [type="class"]{
+	width: 30%;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+td [type="prof"]{
+	width: 25%;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+td [type="date"]{
+	width: 30%;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+#class {
+	width: 39%;
+}
+#prof {
+	width: 29%;
+}
+#date {
+	width: 29%;
+}
 
 
 
