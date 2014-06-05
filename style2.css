@@ -12,6 +12,8 @@ header, body, nav, footer {
 	padding-top: 1px;
 	padding-bottom: 1px;}
 
+#email, #twitter {font-family: Century, Times, Garamond; text-align: left; padding-top: 2px; padding-bottom: 2px;}
+
 nav a {
 	text-align: block;
 	font-family: Century, Times, Garamond; 
@@ -81,6 +83,5 @@ td [type="date"]{
 #date {
 	width: 29%;
 }
-
 
 
