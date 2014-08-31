@@ -76,6 +76,19 @@ img {
 #CV {width: auto;}
 #projects {width: auto;}
 
+#company {
+	font-size: 1em;
+	margin-bottom: 2px !important;
+}
+#role {
+	font-size: 1em;
+	margin-top: 0px !important;
+	margin-bottom: 2px !important;
+}
+#responsibilities {
+	margin-top: 0px !important;
+}
+
 footer {
 	padding-bottom: 10px;
 }
