@@ -18,9 +18,14 @@ nav a {
 	font-family: Century, Times, Garamond; 
 	padding: 6px;}
 
-a:link {color: blue}
-a:visited {color: purple}
-a:hover {color: red}
+a:link {
+	color: purple;
+	text-decoration: none; 
+}
+a:visited {
+	color: purple;
+	text-decoration: none;
+}
 
 header, nav, footer {
 	text-align: center;
