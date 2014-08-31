@@ -62,19 +62,58 @@ body {
 	width: 68%;
 	margin: 50px auto;
 	font-size: 1em;
-	text-align: left;}
+	text-align: left;
+}
 
 img {
 	width: 35%; 
 	float: right; 
-	padding-right: 10px; 
 	margin: 5px;
 }
 
 #more{width: 60%; float:left;}
 #summary{width: auto;}
-div{width: 25%;}
+#CV {width: auto;}
+#projects {width: auto;}
 
 footer {
 	padding-bottom: 10px;
+}
+
+
+
+table {
+	width: 100%;
+}
+
+td [type="class"]{
+	width: 30%;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+td [type="prof"]{
+	width: 25%;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+td [type="date"]{
+	width: 30%;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+#class {
+	width: 39%;
+}
+#prof {
+	width: 29%;
+}
+#date {
+	width: 29%;
 }
