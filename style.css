@@ -4,14 +4,14 @@ html {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;}
+	background-size: cover;
+}
 
 header, body, div, nav, footer {
 	background-color: #FAEBD7;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-top: 1px;
-	padding-bottom: 1px;}
+}
 
 nav a {
 	text-align: block;
@@ -22,8 +22,21 @@ a:link {color: blue}
 a:visited {color: purple}
 a:hover {color: red}
 
-header, nav, footer {text-align: center;}
-#email, #twitter {font-family: Century, Times, Garamond; text-align: left; padding-top: 2px; padding-bottom: 2px;}
+header, nav, footer {
+	text-align: center;
+}
+
+#header {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#email, #twitter {
+	font-family: Century, Times, Garamond; 
+	text-align: left; 
+	padding-top: 2px; 
+	padding-bottom: 2px;
+}
 
 footer {
 	clear: both;
@@ -32,13 +45,17 @@ footer {
 h1 {
 	font-family: Century, Times, Garamond;
 	text-align: left;
-	padding-bottom: 0px;
+	padding-top: 10px;
 }
 h2 {
 	font-family: Century, Times, Garamond; 
+	text-align: left;
+	}
+
+#main {
 	text-align: center;
-	margin-left: 12%;
-	margin-right: 12%;}
+	float: center;
+}
 
 body {
 	font-family: "Times New Roman", "Georgia", Arial, sans-serif, cursive;
@@ -48,13 +65,16 @@ body {
 	text-align: left;}
 
 img {
-	width: 30%; 
+	width: 35%; 
 	float: right; 
 	padding-right: 10px; 
-	margin-top: 50px;}
+	margin: 5px;
+}
 
 #more{width: 60%; float:left;}
 #summary{width: auto;}
 div{width: 25%;}
 
-footer {padding-top: 10px;}
+footer {
+	padding-bottom: 10px;
+}
