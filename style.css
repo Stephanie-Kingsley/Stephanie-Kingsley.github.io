@@ -73,10 +73,12 @@ body {
 img {
 	width: 35%; 
 	float: right; 
-	margin: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
-#bio{width: 60%; float:left;}
+#bio{width: auto;}
 #summary{width: auto;}
 #CV {width: auto;}
 #projects {width: auto;}
