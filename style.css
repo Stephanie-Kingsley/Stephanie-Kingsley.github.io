@@ -68,6 +68,8 @@ body {
 
 p {
 	font-family: Arial, Verdana;
+	font-size: .75em;
+	font-weight: lighter;
 }
 
 footer {
