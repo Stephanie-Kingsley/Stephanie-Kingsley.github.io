@@ -1,16 +1,15 @@
-
 html {
-	background: url(FrenchPlateDoubled.jpg) center;
+	background: url(FrenchPlate2.jpg) center;
 	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	background-attachment: fixed;
 }
 
 
 <!--This creates the matte-->
 header, body, div, nav, footer {
 	background-color: #FAEBD7;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
