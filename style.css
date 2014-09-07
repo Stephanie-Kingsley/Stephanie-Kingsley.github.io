@@ -7,29 +7,24 @@ html {
 	background-size: cover;
 }
 
+
+<!--This creates the matte-->
 header, body, div, nav, footer {
 	background-color: #FAEBD7;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
-nav a {
-	text-align: block;
-	font-family: Century, Times, Garamond; 
-	padding: 6px;}
-
-a:link {
-	color: purple;
-	text-decoration: none; 
-}
-a:visited {
-	color: purple;
-	text-decoration: none;
-}
+<!--All pages-->
 
 header, nav, footer {
 	text-align: center;
 }
+
+nav a {
+	text-align: block;
+	font-family: Century, Times, Garamond; 
+	padding: 6px;}
 
 #header {
 	text-align: center;
@@ -43,9 +38,14 @@ header, nav, footer {
 	padding-bottom: 2px;
 }
 
-footer {
-	clear: both;
-	padding-top: 10px}
+a:link {
+	color: purple;
+	text-decoration: none; 
+}
+a:visited {
+	color: purple;
+	text-decoration: none;
+}
 
 h1 {
 	font-family: Century, Times, Garamond;
@@ -57,23 +57,24 @@ h2 {
 	text-align: left;
 	}
 
-#main {
-	text-align: center;
-	float: center;
-}
-
 body {
 	font-family: "Times New Roman", "Georgia", Arial, sans-serif, cursive;
-	width: 68%;
 	margin: 50px auto;
+	width: 68%;
 	font-size: 1em;
 	text-align: left;
 }
 
-img {
-	width: 100%;  
+footer {
+	padding-bottom: 10px;
+	clear: both;
+	padding-top: 10px}
+
+img{
+	width: 100%;
 	margin-bottom: 10px;
 }
+
 #portrait {
 	width: 33%; 
 	float: right; 
@@ -84,8 +85,12 @@ img {
 
 #bio{width: auto;}
 #summary{width: auto;}
+
+
+
+<!--CV Styles--> 
+
 #CV {width: auto;}
-#projects {width: auto;}
 
 #company {
 	font-size: 1em;
@@ -100,10 +105,6 @@ img {
 }
 #responsibilities {
 	margin-top: 0px !important;
-}
-
-footer {
-	padding-bottom: 10px;
 }
 
 
@@ -143,3 +144,22 @@ td [type="date"]{
 #date {
 	width: 29%;
 }
+
+
+
+<!--Projects Styles-->
+
+#projects {width: auto;}
+#screenshot {
+	width: 80%; 
+	float: center; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.screenshotimage {
+	margin-bottom: 12px;
+	box-shadow: 7px 7px 7px #86746F;
+}	
