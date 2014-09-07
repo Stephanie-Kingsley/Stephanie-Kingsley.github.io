@@ -24,7 +24,7 @@ header, nav, footer {
 
 nav a {
 	text-align: block;
-	font-family: Century, Times, Garamond; 
+	font-family: 'Alegreya Sans', sans-serif; 
 	padding: 6px;}
 
 #header {
@@ -33,7 +33,7 @@ nav a {
 }
 
 #email, #twitter {
-	font-family: Century, Times, Garamond; 
+font-family: 'Alegreya Sans', sans-serif; 
 	text-align: left; 
 	padding-top: 2px; 
 	padding-bottom: 2px;
@@ -49,17 +49,17 @@ a:visited {
 }
 
 h1 {
-	font-family: Century, Times, Garamond;
+	font-family: 'Alegreya Sans', sans-serif;
 	text-align: left;
 	padding-top: 10px;
 }
 h2 {
-	font-family: Century, Times, Garamond; 
+	font-family: 'Alegreya Sans', sans-serif; 
 	text-align: left;
 	}
 
 body {
-	font-family: "Times New Roman", "Georgia", Arial, sans-serif, cursive;
+	font-family: 'Alegreya Sans', sans-serif;
 	margin: 50px auto;
 	width: 68%;
 	font-size: 1em;
