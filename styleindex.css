@@ -1,0 +1,164 @@
+html {
+	background: url(FrenchPlate2.jpg) center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+
+<!--This creates the matte-->
+header, body, div, nav, footer {
+	background-color: #FAEBD7;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+<!--All pages-->
+
+header, nav, footer {
+	text-align: center;
+}
+
+nav a {
+	text-align: block;
+	font-family: Century, Times, Garamond; 
+	padding: 6px;}
+
+#header {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#email, #twitter {
+	font-family: Century, Times, Garamond; 
+	text-align: left; 
+	padding-top: 2px; 
+	padding-bottom: 2px;
+}
+
+a:link {
+	color: purple;
+	text-decoration: none; 
+}
+a:visited {
+	color: purple;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: Century, Times, Garamond;
+	text-align: left;
+	padding-top: 10px;
+}
+h2 {
+	font-family: Century, Times, Garamond; 
+	text-align: left;
+	}
+
+body {
+	font-family: "Times New Roman", "Georgia", Arial, sans-serif, cursive;
+	margin: 50px auto;
+	width: 68%;
+	font-size: 1em;
+	text-align: left;
+}
+
+footer {
+	padding-bottom: 10px;
+	clear: both;
+	padding-top: 10px}
+
+img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#portrait {
+	width: 33%; 
+	float: right; 
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#bio{width: auto;}
+#summary{width: auto;}
+
+
+
+<!--CV Styles--> 
+
+#CV {width: auto;}
+
+#company {
+	font-size: 1em;
+	margin-bottom: 2px !important;
+}
+#role {
+	font-size: 1em;
+	margin-top: 0px !important;
+	margin-bottom: 2px !important;
+	font-style: italic !important;
+	font-weight: normal !important;
+}
+#responsibilities {
+	margin-top: 0px !important;
+}
+
+
+
+table {
+	width: 100%;
+}
+
+td [type="class"]{
+	width: 30%;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+td [type="prof"]{
+	width: 25%;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+td [type="date"]{
+	width: 30%;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+#class {
+	width: 39%;
+}
+#prof {
+	width: 29%;
+}
+#date {
+	width: 29%;
+}
+
+
+
+<!--Projects Styles-->
+
+#projects {width: auto;}
+#screenshot {
+	width: 80%; 
+	float: center; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.screenshotimage {
+	margin-bottom: 12px;
+	box-shadow: 7px 7px 7px #86746F;
+}	
